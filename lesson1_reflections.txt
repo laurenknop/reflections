@@ -1,0 +1,57 @@
+** In command window **
+***To launch Notepad++ type "start notepad++ filename.ext"
+
+Lesson 1 Reflexions: 
+
+-How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Can easily go back to previous codes/ processes.
+	Can use to find bug in a later version of code.
+
+-What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: You can manage it easier and easier for other people to follow changes
+	Pros: (When using Git) Can access on any computer
+	Cons: It takes more time than automatically save 
+	Cons: Forget to save? 
+
+-Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Organization. Instead of having 10 versions of one file, just have one file
+	that has the ability to go back to previous commits. 
+
+-How can you use the commands git log and git diff to view the history of files?
+
+    WINDOWS: cd folder_name> FC file_old file_new
+	
+	GIT/LINUX: cd folder_name
+				diff -u file_old file_new
+
+-How might using version control make you more confident to make changes that
+could break something?
+
+    You can always go back to a previous version if the code breaks. 
+	
+-How could having easy access to the entire history of a file make you a more efficient 
+programmer in the long term?
+	Only have one file in which you can revert and/or compare to previous versions. 
+	
+-How can you use the commands git log and git diff to view the history of files?
+	Load the file you want to view: cd file_directory
+	git log => can use to see all of the commits throughout the entire repository
+	git diff old_file_id new_file_id => use to compare changed between two commits within the repository
+										green lines were added and red lines were removed between the 
+										two commits. 
+					
+-How might using version control make you more confident to make changes that could break something?
+	To use version-control and switch between different versions use: 
+		git checkout commit_id
+	This will revert the git log up until this commit. To revert back to the most recent commit, you
+	must use git checkout commit_id --> but you must remember this. Will learn more about later! 
+	
+
+	
