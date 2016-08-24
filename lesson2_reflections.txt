@@ -1,4 +1,4 @@
-Lesson 2 Reflections
+﻿Lesson 2 Reflections
 
 -What happens when you initialize a repository? Why do you need to do it?
 	git init --> initializes a new git repository, normally for an already
@@ -9,6 +9,10 @@ Lesson 2 Reflections
 
 -How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	Staging area is in between the working directory and the repository. It
+	allows you to add multiple files to just one commit. This can be used 
+	to keep commits more organized. 
 
 -How can you use the staging area to make sure you have one commit per logical
 change?
